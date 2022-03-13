@@ -1,7 +1,7 @@
 class CatalogModel{
   static List<Item> items = [
     Item(
-      id: "Roam001",
+      id: 1,
       name: "iPhone 12 Pro",
       desc: "Apple iPhone 12th generation",
       price: 999,
@@ -11,7 +11,7 @@ class CatalogModel{
 }
 
 class Item{
-  final String id;
+  final int id;
   final String name;
   final String desc;
   final num price;
