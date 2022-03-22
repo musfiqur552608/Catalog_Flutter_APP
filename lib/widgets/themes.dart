@@ -36,9 +36,10 @@ class MyTheme{
           iconTheme: IconThemeData(
             color: Colors.white,
           ),
+
           // textTheme: Theme.of(context).textTheme
           titleTextStyle: TextStyle(
-              color: Colors.black,
+              color: Colors.white,
               fontWeight: FontWeight.w600,
               fontSize: 18
           )
